@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts_moon/icomoon.eot?qhizww');
+  src: url('../fonts_moon/icomoon.eot?qhizww#iefix') format('embedded-opentype'),
+    url('../fonts_moon/icomoon.ttf?qhizww') format('truetype'),
+    url('../fonts_moon/icomoon.woff?qhizww') format('woff'),
+    url('../fonts_moon/icomoon.svg?qhizww#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-f:before {
+  content: "\e902";
+}
+
+.icon-instagram:before {
+  content: "\e903";
+}
+
+.icon-pinterest-p:before {
+  content: "\e904";
+}
+
+.icon-linkedin:before {
+  content: "\e900";
+  color: #0077b5;
+}
+
+.icon-twitter:before {
+  content: "\e901";
+  color: #1da1f2;
+}

@@ -1,0 +1,59 @@
+@import "variables";
+@import "mixins";
+
+button {
+    display: block;
+    background: $main_color;
+    color: white;
+    margin: 5px auto;
+}
+
+.a100 {
+    border-radius: 100%;
+    border: none;
+    
+
+}
+
+.a300 {
+    font-weight:300;
+    border-radius: 100%;
+    border: none;
+}
+
+.a400 {
+    border-radius: 100%;
+    border: none;
+}
+.a400 i {
+    width: 14px;
+}
+.a500 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    font-weight:500;
+    border-radius: 100%;
+}
+
+
+.a700 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    font-weight:700;
+    border-radius: 100%;
+}
+
+.a900 {
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    border:none;
+}
