@@ -7,7 +7,7 @@
         width: 750px;
         height: 580px;
     }
-    .slick-prev, .slick-next {
+    .prev, .next {
         border: none;
         position: absolute;
         top: 50%;
@@ -19,8 +19,26 @@
             height: 50px;
             }
     }
-    .slick-next {
+    .next {
         left: auto;
         right: -66px;
     }
+    .tns-outer {
+        // .tns-nav {
+        //     button {
+        //         background:blue;
+        //         width: 30px;
+        //         height: 30px;
+        //         margin-right: 5px;
+        //     }
+        //     .tns-nav-active {
+        //         background:red;
+        //     }
+        // }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
 }
