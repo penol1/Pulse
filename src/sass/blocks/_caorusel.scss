@@ -12,7 +12,7 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        left: -66px;
+        left: 0px;
         background: #fff;
         img {
             width: 31px;
@@ -21,7 +21,7 @@
     }
     .next {
         left: auto;
-        right: -66px;
+        right: 0px;
     }
     .tns-outer {
         // .tns-nav {
