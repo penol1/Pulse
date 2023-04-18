@@ -1,0 +1,67 @@
+.overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.56);
+    .modal {
+        position: absolute;
+        display: block;
+        position: absolute;
+        width: 382px;
+        min-height: 143px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: #F2F2F2;
+        padding: 35px 40px 40px 40px;
+        &__close {
+            position: absolute;
+            top: 0;
+            right: -40px;
+            font-weight: 900;
+            font-size: 21px;
+            line-height: 21px;
+            color: $main_color;
+            cursor: pointer;
+        }
+        &__subtitle {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 19px;
+            text-align: center;
+            color: #0D0D0D;
+        }
+        &__descr {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 14px;
+            margin-top: 10px;
+            text-align: center;
+            color: #0D0D0D;
+        }
+        &_thanks {
+            display: block;
+            width: 382px;
+            height: 143px;
+            padding: 35px 40px;
+            font-weight: 700;
+            font-size: 14px;
+            .modal__descr {
+                line-height: 22px;
+            }
+        }
+        .error {
+            border: 1px solid red;
+        }
+        label.error {
+            border: none;
+            text-align: center;
+        }
+    }
+}
+
+#consultation, #order, #thanks, .overlay {
+    display: none;
+}
